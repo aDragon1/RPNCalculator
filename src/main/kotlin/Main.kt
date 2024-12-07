@@ -6,8 +6,6 @@ import self.adragon.model.Token
 import self.adragon.model.TokenType
 
 
-//  https://en.wikipedia.org/wiki/Shunting_yard_algorithm
-//  https://www.dcode.fr/reverse-polish-notation
 fun main() {
     println("Enter mathematical expression:")
     val expr = readln()//"7 - 5 * 2 ^ 4 + 10 / 10 * 5"
